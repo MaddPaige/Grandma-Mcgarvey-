@@ -1,0 +1,24 @@
+/* Format for applying styling rules */
+[selector] {
+  [property]: [value];
+}
+
+/* Global Styles go here */
+body {
+  background: white;
+  color: black;
+  padding: 0px;
+  margin: 0px;
+  background-image: url("../assets/web-background.jpg");
+  background-size: 100% 100%;
+}
+
+
+img {
+  width: 100%;
+}
+
+
+body {
+  cursor: url("../assets/dog.png") 0 0, pointer;
+}
