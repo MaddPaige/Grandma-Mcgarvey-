@@ -129,8 +129,8 @@ img {
 
 .gm-wave-container {
   width: 100%;
-  bottom: -7%;
-  position: absolute;
+  bottom: -8%;
+  position: fixed;
   left: 0;
   z-index: 1;
 }
@@ -257,11 +257,10 @@ body {
   .gm-firework {
     width: 30%;
   }
-
   .gm-wave-container {
     width: 100%;
-    bottom: 3%;
-    position: absolute;
+    bottom: -2%;
+    position: fixed;
     left: 0;
     z-index: 1;
   }
@@ -270,122 +269,10 @@ body {
     width: 170%;
   }
 
+
+
 }
 
-@media only screen and (max-width: 400px) {
-
-  .gm-BANANA1-container {
-    width: 100%;
-    bottom: 5%;
-    position: absolute;
-    left: 80%;
-    z-index: 100;
-  }
-  .gm-BANANA2-container {
-    width: 100%;
-    left: 25%;
-    position: absolute;
-    top: 5%;
-    z-index: 100;
-  }
-
-  .gm-BANANA3-container {
-    width: 100%;
-    top: 52%;
-    position: absolute;
-    left: 65%;
-    z-index: 100;
-  }
-
-  .gm-BANANA4-container {
-    width: 100%;
-    top: 37%;
-    position: absolute;
-    left: 5%;
-    z-index: 100;
-  }
-
-
-  .gm-BANANA {
-    width: 30%;
-  }
-
-  .gm-BANANA:hover {
-    animation: shake 0.5s infinite;
-  }
-
-  .gm-surprise-container {
-    width: 100%;
-    bottom: 0;
-    position: absolute;
-    left: 2%;
-    z-index: 2;
-  }
-
-  .gm-surprise {
-    width: 50%;
-  }
-
-  .gm-shape-container {
-    width: 170%;
-    height: 130vh;
-    top: -17%;
-    position: absolute;
-    left: -70%;
-    background-image: url("../assets/background1.png");
-    background-size: cover;
-    z-index: 0;
-  }
-
-  .gm-shape {
-    width: 150%;
-  }
-
-  .gm-grid-container {
-    width: 70%;
-    top: 15%;
-    position: absolute;
-    right: 1%;
-    z-index:90;
-  }
-
-  .gm-grid {
-    width: 100%;
-  }
-
-  .gm-firework1-container {
-    width: 100%;
-    top: 0;
-    position: absolute;
-    left: 0;
-    z-index: 2;
-  }
-
-  .gm-firework2-container {
-    width: 100%;
-    bottom: 0;
-    position: absolute;
-    left: 50%;
-    z-index: 2;
-  }
-
-  .gm-firework {
-    width: 30%;
-  }
-
-  .gm-wave-container {
-    width: 100%;
-    bottom: 3%;
-    position: absolute;
-    left: 0;
-    z-index: 1;
-  }
-
-  .gm-wave {
-    width: 170%;
-  }
-
-}
 
 @media only screen and (max-width: 700px) {
 
@@ -487,11 +374,10 @@ body {
   .gm-firework {
     width: 30%;
   }
-
   .gm-wave-container {
     width: 100%;
-    bottom: 2%;
-    position: absolute;
+    bottom: 0%;
+    position: fixed;
     left: 0;
     z-index: 1;
   }
@@ -499,7 +385,6 @@ body {
   .gm-wave {
     width: 170%;
   }
-
 }
 
 @media only screen and (max-width: 1000px) {
@@ -603,16 +488,5 @@ body {
     width: 30%;
   }
 
-  .gm-wave-container {
-    width: 100%;
-    bottom: 10%;
-    position: absolute;
-    left: 0;
-    z-index: 1;
-  }
-
-  .gm-wave {
-    width: 170%;
-  }
 
 }
