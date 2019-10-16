@@ -4,138 +4,134 @@
 }
 
 /* Global Styles go here */
-  body {
-    background: white;
-    color: black;
-    padding: 0px;
-    margin: 0px;
-    background-image: url("../assets/web-background.jpg");
-    background-size: 100% 100%;
+body {
+  background: white;
+  color: black;
+  padding: 0px;
+  margin: 0px;
+  background-image: url("../assets/web-background.jpg");
+  background-size: 100% 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.gm-page {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.gm-shape-container {
+  width: 100%;
+  height: 100vh;
+  top: 0px;
+  position: absolute;
+  left: 0px;
+  background-image: url("../assets/background2.png");
+  background-size: cover;
+  z-index: 0;
+}
+
+.gm-shape {
+  width: 100%;
+}
+
+.gm-grandma-container {
+  width: 40%;
+  top: 0%;
+  position: absolute;
+  left: 0;
+}
+
+.gm-grandma {
+  width: 100%;
+}
+
+.gm-title-container {
+  width: 40%;
+  top: 5%;
+  position: absolute;
+  right: 5%;
+}
+
+.gm-title {
+  width: 100%;
+}
+
+.gm-type-container {
+  width: 40%;
+  top: 35%;
+  position: absolute;
+  right: 5%;
+  z-index: 100;
+  font-family: "comic sans MS",  "Helvetica Neue";
+  margin: 1em;
+  color:green;
+  font-size: 12pt;
+}
+
+.gm-type {
+  width: 100%;
+}
+
+.gm-BANANA1-container {
+  width: 100%;
+  bottom: 5%;
+  position: absolute;
+  left: 56%;
+  z-index: 100;
+}
+
+.gm-BANANA2-container {
+  width: 100%;
+  left: 40%;
+  position: absolute;
+  top: 7%;
+  z-index: 100;
+}
+
+.gm-BANANA3-container {
+  width: 70%;
+  top: 25%;
+  position: absolute;
+  left: 83%;
+  z-index: 100;
+}
+
+.gm-BANANA {
+  width: 13%;
+  animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
   }
-
-
-  img {
-    width: 100%;
+  to {
+    transform: rotate(359deg);
   }
+}
 
-  .gm-page {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    overflow: hidden;
-  }
+.gm-arrow-container {
+  width: 5%;
+  bottom: 2%;
+  position: absolute;
+  left: 2%;
+  z-index: 100;
+}
 
-  .gm-shape-container {
-    width: 100%;
-    height: 100vh;
-    top: 0px;
-    position: absolute;
-    left: 0px;
-    background-image: url("../assets/background2.png");
-    background-size: cover;
-    z-index: 0;
-  }
+.gm-arrow {
+  width: 100%;
+}
 
-  .gm-shape {
-    width: 100%;
-  }
-
-  .gm-grandma-container {
-    width: 40%;
-    top: 0%;
-    position: absolute;
-    left: 0;
-  }
-
-  .gm-grandma {
-    width: 100%;
-  }
-
-  .gm-title-container {
-    width: 40%;
-    top: 5%;
-    position: absolute;
-    right: 5%;
-  }
-
-  .gm-title {
-    width: 100%;
-  }
-
-  .gm-type-container {
-    width: 40%;
-    top: 35%;
-    position: absolute;
-    right: 5%;
-    z-index: 100;
-    font-family: "comic sans MS",  "Helvetica Neue";
-    margin: 1em;
-    color:green;
-    font-size: 12pt;
-  }
-
-  .gm-type {
-    width: 100%;
-  }
-
-  .gm-BANANA1-container {
-    width: 100%;
-    bottom: 5%;
-    position: absolute;
-    left: 56%;
-    z-index: 100;
-  }
-
-  .gm-BANANA2-container {
-    width: 100%;
-    left: 40%;
-    position: absolute;
-    top: 7%;
-    z-index: 100;
-  }
-
-  .gm-BANANA3-container {
-    width: 70%;
-    top: 25%;
-    position: absolute;
-    left: 83%;
-    z-index: 100;
-  }
-
-  .gm-BANANA {
-    width: 13%;
-    animation: rotation 2s infinite linear;
-  }
-
-  @keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
-  }
-
-  .gm-arrow-container {
-    width: 5%;
-    bottom: 2%;
-    position: absolute;
-    left: 2%;
-    z-index: 100;
-  }
-
-  .gm-arrow {
-    width: 100%;
-  }
-
-  body {
-    cursor: url("../assets/dog.png") 0 0, pointer;
-  }
-
+body {
+  cursor: url("../assets/dog.png") 0 0, pointer;
 }
 
 @media only screen and (max-width: 400px) {
-
   .gm-shape-container {
     width: 100%;
     height: 100vh;
@@ -174,7 +170,7 @@
   }
 
   .gm-type-container {
-    width: 40%;
+    width: 100%;
     top: 35%;
     position: absolute;
     right: 5%;
@@ -238,5 +234,4 @@
   .gm-arrow {
     width: 150%;
   }
-
 }
