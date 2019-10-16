@@ -115,6 +115,7 @@ img {
   width: 120%;
   transform: rotate(5deg);
   pointer-events: none;
+  z-index: -1;
 }
 
 .gm-firework1-container {
@@ -207,27 +208,28 @@ ul.game li {
     margin: 0;
     padding: 0;
     list-style: none;
-    background: #eee;
     display: inline-block;
     height: 32.5%;
     width: 32.5%;
-    z-index: 1;
+
 }
 
-ul.game li:hover {
+/*l.game li:hover {
     background: #ccc;
-}
+}*/
 
 ul.game li.nought {
     background: url("../assets/nought.png");
     background-position: center center;
     background-size: 100% 100%;
+    z-index: 200;
 }
 
 ul.game li.cross {
     background: url("../assets/cross.png");
     background-position: center center;
     background-size: 100% 100%;
+    z-index: 200;
 }
 
 /* end of noughts and crosses styles */
