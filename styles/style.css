@@ -209,13 +209,13 @@ ul.game li:hover {
 }
 
 ul.game li.nought {
-    background: url("../assets/cross.png");
+    background: url("../assets/nought.png");
     background-position: center center;
     background-size: 100% 100%;
 }
 
 ul.game li.cross {
-    background: url("../assets/nought.png");
+    background: url("../assets/cross.png");
     background-position: center center;
     background-size: 100% 100%;
 }
