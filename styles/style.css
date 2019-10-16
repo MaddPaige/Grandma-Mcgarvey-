@@ -215,7 +215,8 @@ ul.game li.nought {
 }
 
 ul.game li.cross {
-    background: url("../assets/nought.png")
+    background: url("../assets/nought.png");
+    background-position: center center;
     background-size: 100% 100%;
 }
 
