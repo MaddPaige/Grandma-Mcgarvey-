@@ -1,13 +1,10 @@
-//alert('hello!');
 
-
-// NOUGHTS AND CROSSES GAME TEST YO
-
+// Noughts and crosses
 // Define all the elements
 var game = "ul.game",
-gameSquare = "ul.game li.blank",
-nought = "ul.game li.nought",
-cross = "ul.game li.cross";
+	gameSquare = "ul.game li.blank",
+	nought = "ul.game li.nought",
+	cross = "ul.game li.cross";
 
 // Define array for the noughts and crosses
 var gameResult = [nought, cross];
@@ -23,6 +20,7 @@ function resetClick() {
 }
 
 function count() {
+	console.log('count');
 	if(x<1)
 	{
 		x += 1;
@@ -34,14 +32,14 @@ function count() {
 }
 
 $( "p.reset" ).click(function() {
-         location.reload(true);
+  location.reload(true);
 });
 
 // 1 = NOUGHT, 0 = CROSS
 
 // On clicking a square count the clicks and change the class, this will work only once per square
 $(gameSquare).bind("click", function(){
-
+	console.log('click on game square');
 	count();
 
 	if (x == 1) {
