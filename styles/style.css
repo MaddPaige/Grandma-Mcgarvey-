@@ -425,3 +425,155 @@ ul.game li.cross {
       cursor: pointer;
   }
 }
+
+@media only screen and (max-width: 500px) {
+
+  .gm-BANANA1-container {
+    width: 100%;
+    bottom: 5%;
+    position: absolute;
+    left: 65%;
+    z-index: 100;
+  }
+
+  .gm-BANANA2-container {
+    width: 100%;
+    left: 40%;
+    position: absolute;
+    top: 3%;
+    z-index: 100;
+  }
+
+  .gm-BANANA3-container {
+    width: 100%;
+    top: -10%;
+    position: absolute;
+    left: 40%;
+    z-index: 100;
+    transform: rotate(-90deg);
+  }
+
+  .gm-BANANA4-container {
+    width: 100%;
+    top: 60%;
+    position: absolute;
+    left: 20%;
+    z-index: 100;
+  }
+
+  .gm-BANANA {
+    width: 20%;
+  }
+
+  .gm-BANANA:hover {
+    animation: shake 0.5s infinite;
+  }
+
+  .gm-surprise-container {
+    width: 100%;
+    bottom: 10;
+    position: absolute;
+    left: 2%;
+    z-index: 3;
+    cursor: pointer;
+  }
+
+  .gm-surprise {
+    width: 35%;
+  }
+
+  .gm-shape-container {
+    width: 400%;
+    height: 100vh;
+    top: 0px;
+    position: absolute;
+    left: -35px;
+    background-image: url("../assets/background1.png");
+    background-size: cover;
+    z-index: 0;
+  }
+
+  .gm-shape {
+    width: 100%;
+  }
+
+  .gm-firework1-container {
+    width: 95%;
+    top: 0%;
+    position: absolute;
+    left: 0%;
+    z-index: 3;
+  }
+
+  .gm-firework2-container {
+    width: 145%;
+    bottom: 55%;
+    position: absolute;
+    left: 10%;
+    z-index: 3;
+    transform: rotate(-90deg);
+  }
+
+  .gm-firework {
+    width: 30%;
+  }
+
+  .gm-wave-container {
+    width: 100%;
+    bottom: 3%;
+    position: fixed;
+    left: 0;
+    z-index: 2;
+  }
+
+  .gm-wave {
+    width: 150%;
+  }
+
+  .gm-grid-container {
+    width: 30%;
+    top: 15%;
+    position: absolute;
+    right: 50%;
+    z-index:101;
+  }
+
+  .gm-grid-illustration {
+    top: -14%;
+    position: absolute;
+    left: -25%;
+    width: 245%;
+    transform: rotate(5deg);
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  /* noughts and crosses reset button style */
+  .gm-reset-container {
+    width: 45%;
+    bottom: 33%;
+    position: fixed;
+    right: 15%;
+    z-index: 100;
+    cursor: pointer;
+  }
+
+  ul.game {
+      margin: 15px;
+      padding: 0;
+      width: 273.75px;
+      height: 273.75px;
+      margin: 0 auto;
+      z-index: 1;
+  }
+
+  ul.game li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: inline-block;
+      height: 30%;
+      width: 30%;
+      cursor: pointer;
+  }
+}
