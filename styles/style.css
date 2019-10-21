@@ -102,9 +102,9 @@ img {
 
 .gm-firework2-container {
   width: 100%;
-  bottom: 0;
+  bottom: 20%;
   position: absolute;
-  left: 50%;
+  left: 45%;
   z-index: 3;
 }
 
@@ -114,14 +114,14 @@ img {
 
 .gm-wave-container {
   width: 100%;
-  bottom: -18%;
+  bottom: -12%;
   position: fixed;
   left: 0;
   z-index: 2;
 }
 
 .gm-wave {
-  width: 80%;
+  width: 100%;
 }
 
 @keyframes shake {
@@ -152,7 +152,7 @@ img {
 }
 
 .gm-grid-illustration {
-  top: -12%;
+  top: -18%;
   position: absolute;
   right: -8%;
   width: 110%;
@@ -185,7 +185,7 @@ ul.list li.selected {
 /* noughts and crosses reset button style */
 .gm-reset-container {
   width: 15%;
-  bottom: 19%;
+  bottom: 30%;
   position: fixed;
   right: 6%;
   z-index: 100;
