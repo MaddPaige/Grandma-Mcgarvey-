@@ -100,7 +100,7 @@ img {
   top: 50px;
   position: absolute;
   right: 50px;
-  z-index:90;
+  z-index:101;
 }
 
 .gm-grid {
@@ -109,10 +109,10 @@ img {
 }
 
 .gm-grid-illustration {
-  top: -10%;
+  top: -12%;
   position: absolute;
-  right: -10%;
-  width: 120%;
+  right: -8%;
+  width: 110%;
   transform: rotate(5deg);
   pointer-events: none;
   z-index: -1;
@@ -187,12 +187,16 @@ ul.list li.selected {
 
 
 /* noughts and crosses reset button style */
+.gm-reset-container {
+  width: 15%;
+  bottom: 19%;
+  position: fixed;
+  right: 6%;
+  z-index: 100;
+}
+
 p.reset {
-    text-align: center;
-    color: #666;
-    font-size: 20px;
-    cursor: pointer;
-    z-index: 1;
+    width: 100%;
 }
 
 ul.game {
