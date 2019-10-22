@@ -11,7 +11,7 @@ body {
   margin: 0px;
   background-image: url("../assets/web-background.jpg");
   background-size: 100% 100%;
-  cursor: url("../assets/dog.png") 0 0, pointer;
+  /* cursor: url("../assets/dog.png") 0 0, pointer; */
 }
 
 img {
@@ -428,6 +428,11 @@ ul.game li.cross {
 
 @media only screen and (max-width: 500px) {
 
+  body {
+    height: 100vh;
+    overflow: hidden;
+  }
+
   .gm-BANANA1-container {
     width: 100%;
     bottom: 5%;
@@ -576,4 +581,89 @@ ul.game li.cross {
       width: 30%;
       cursor: pointer;
   }
+}
+
+@media only screen and (max-width: 450px) {
+
+  body {
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .gm-grid-illustration {
+    top: -14%;
+    position: absolute;
+    left: -25%;
+    width: 270%;
+    transform: rotate(5deg);
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  /* noughts and crosses reset button style */
+  .gm-reset-container {
+    width: 45%;
+    bottom: 29%;
+    position: fixed;
+    right: 11%;
+    z-index: 100;
+    cursor: pointer;
+  }
+
+}
+
+@media only screen and (max-width: 350px) {
+
+  body {
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .gm-grid-container {
+    width: 30%;
+    top: 15%;
+    position: absolute;
+    right: 50%;
+    z-index:101;
+  }
+
+  .gm-grid-illustration {
+    top: -14%;
+    position: absolute;
+    left: -25%;
+    width: 245%;
+    transform: rotate(5deg);
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  /* noughts and crosses reset button style */
+  .gm-reset-container {
+    width: 45%;
+    bottom: 33%;
+    position: fixed;
+    right: 15%;
+    z-index: 100;
+    cursor: pointer;
+  }
+
+  ul.game {
+      margin: 15px;
+      padding: 0;
+      width: 200px;
+      height: 200px;
+      margin: 0 auto;
+      z-index: 1;
+  }
+
+  ul.game li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: inline-block;
+      height: 30%;
+      width: 30%;
+      cursor: pointer;
+  }
+
 }
