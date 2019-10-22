@@ -11,6 +11,7 @@
     margin: 0px;
     background-image: url("../assets/web-background.jpg");
     background-size: 100% 100%;
+    cursor: url("../assets/dog.png") 0 0, pointer;
   }
 
 
@@ -128,20 +129,27 @@
     width: 100%;
   }
 
-  body {
-    cursor: url("../assets/dog.png") 0 0, pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .gm-grandma-container {
+    width: 80%;
+    top: 0%;
+    position: absolute;
+    left: 0;
   }
 
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
 
   .gm-shape-container {
-    width: 100%;
+    width: 200%;
     height: 100vh;
-    top: 0px;
+    top: -10%;
     position: absolute;
-    left: 0px;
+    left: -60%;
     background-image: url("../assets/background2.png");
     background-size: cover;
     z-index: 0;
@@ -152,46 +160,35 @@
   }
 
   .gm-grandma-container {
-    width: 40%;
-    top: 50%;
+    width: 50%;
+    top: 15%;
     position: absolute;
-    left: 0;
-  }
-
-  .gm-grandma {
-    width: 100%;
+    left: 25%;
   }
 
   .gm-title-container {
     width: 100%;
-    top: 5%;
+    top: 0%;
     position: absolute;
+    right: 0%;
     left: 0%;
   }
 
-  .gm-title {
-    width: 100%;
-  }
-
   .gm-type-container {
-    width: 40%;
-    top: 35%;
+    width: 100%;
+    top: 65%;
     position: absolute;
-    right: 5%;
+    left: 0%;
     z-index: 100;
     font-family: "comic sans MS",  "Helvetica Neue";
     margin: 1em;
     color:green;
-    font-size: 12pt;
-  }
-
-  .gm-type {
-    width: 100%;
+    font-size: 11pt;
   }
 
   .gm-BANANA1-container {
-    width: 100%;
-    bottom: 5%;
+    width: 90%;
+    bottom: 2%;
     position: absolute;
     left: 56%;
     z-index: 100;
@@ -199,22 +196,22 @@
 
   .gm-BANANA2-container {
     width: 100%;
-    left: 40%;
+    left: 7%;
     position: absolute;
-    top: 7%;
+    top: 22%;
     z-index: 100;
   }
 
   .gm-BANANA3-container {
-    width: 70%;
+    width: 130%;
     top: 25%;
     position: absolute;
-    left: 83%;
+    left: 72%;
     z-index: 100;
   }
 
   .gm-BANANA {
-    width: 13%;
+    width: 15%;
     animation: rotation 2s infinite linear;
   }
 
@@ -228,16 +225,15 @@
   }
 
   .gm-arrow-container {
-    width: 5%;
+    width: 10%;
     bottom: 2%;
     position: absolute;
     left: 2%;
     z-index: 100;
-    cursor: pointer;
   }
 
   .gm-arrow {
-    width: 150%;
+    width: 100%;
   }
 
 }
