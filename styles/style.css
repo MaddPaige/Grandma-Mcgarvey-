@@ -535,7 +535,7 @@ ul.game li.cross {
     width: 30%;
     top: 15%;
     position: absolute;
-    right: 50%;
+    right: 45%;
     z-index:101;
   }
 
@@ -543,7 +543,7 @@ ul.game li.cross {
     top: -14%;
     position: absolute;
     left: -25%;
-    width: 245%;
+    width: 215%;
     transform: rotate(5deg);
     pointer-events: none;
     z-index: -1;
@@ -552,7 +552,7 @@ ul.game li.cross {
   /* noughts and crosses reset button style */
   .gm-reset-container {
     width: 45%;
-    bottom: 33%;
+    bottom: 29%;
     position: fixed;
     right: 15%;
     z-index: 100;
@@ -577,5 +577,102 @@ ul.game li.cross {
       width: 30%;
       cursor: pointer;
   }
+
+}
+
+
+  @media only screen and (max-width: 450px) {
+
+  .gm-grid-container {
+    width: 30%;
+    top: 15%;
+    position: absolute;
+    right: 48%;
+    z-index:101;
+  }
+
+  .gm-grid-illustration {
+    top: -14%;
+    position: absolute;
+    left: -25%;
+    width: 245%;
+    transform: rotate(5deg);
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  /* noughts and crosses reset button style */
+  .gm-reset-container {
+    width: 45%;
+    bottom: 35%;
+    position: fixed;
+    right: 12%;
+    z-index: 100;
+    cursor: pointer;
+  }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+.gm-grid-container {
+  width: 30%;
+  top: 10%;
+  position: absolute;
+  right: 48%;
+  z-index:101;
+}
+
+.gm-grid-illustration {
+  top: -7%;
+  position: absolute;
+  left: -21%;
+  width: 255%;
+  transform: rotate(5deg);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* noughts and crosses reset button style */
+.gm-reset-container {
+  width: 45%;
+  bottom: 36%;
+  position: fixed;
+  right: 11%;
+  z-index: 100;
+  cursor: pointer;
+}
+
+}
+
+@media only screen and (max-width: 360px) {
+
+.gm-grid-container {
+  width: 30%;
+  top: 10%;
+  position: absolute;
+  right: 50%;
+  z-index:101;
+}
+
+.gm-grid-illustration {
+  top: -7%;
+  position: absolute;
+  left: -16%;
+  width: 255%;
+  transform: rotate(5deg);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* noughts and crosses reset button style */
+.gm-reset-container {
+  width: 45%;
+  bottom: 29%;
+  position: fixed;
+  right: 11%;
+  z-index: 120;
+  cursor: pointer;
+}
 
 }
