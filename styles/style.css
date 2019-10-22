@@ -11,7 +11,7 @@ body {
   margin: 0px;
   background-image: url("../assets/web-background.jpg");
   background-size: 100% 100%;
-  /* cursor: url("../assets/dog.png") 0 0, pointer; */
+  cursor: url("../assets/dog.png") 0 0, pointer; 
 }
 
 img {
@@ -665,5 +665,4 @@ ul.game li.cross {
       width: 30%;
       cursor: pointer;
   }
-
 }
