@@ -11,7 +11,7 @@ body {
   margin: 0px;
   background-image: url("../assets/web-background.jpg");
   background-size: 100% 100%;
-  cursor: url("../assets/dog.png") 0 0, pointer; 
+  cursor: url("../assets/dog.png") 0 0, pointer;
 }
 
 img {
@@ -316,6 +316,10 @@ ul.game li.cross {
     z-index: 2;
   }
 
+  .gm-wave {
+    width: 130%;
+  }
+
   .gm-grid-container {
     width: 30%;
     top: 50px;
@@ -347,6 +351,78 @@ ul.game li.cross {
 
 @media only screen and (max-width: 1100px) {
 
+  .gm-shape-container {
+    width: 250%;
+    height: 100vh;
+    top: 0px;
+    position: absolute;
+    left: -25%;
+    background-image: url("../assets/background1.png");
+    background-size: cover;
+    z-index: 0;
+  }
+
+  .gm-firework1-container {
+    width: 100%;
+    top: 3%;
+    position: absolute;
+    left: 5%;
+    z-index: 3;
+  }
+
+  .gm-firework2-container {
+    width: 100%;
+    bottom: 24%;
+    position: absolute;
+    left: 53%;
+    z-index: 3;
+  }
+
+  .gm-firework {
+    width: 30%;
+  }
+
+
+  .gm-BANANA1-container {
+    width: 100%;
+    bottom: 5%;
+    position: absolute;
+    left: 80%;
+    z-index: 100;
+  }
+
+  .gm-BANANA2-container {
+    width: 110%;
+    left: 38%;
+    position: absolute;
+    top: 5%;
+    z-index: 100;
+  }
+
+  .gm-BANANA3-container {
+    width: 70%;
+    top: 45%;
+    position: absolute;
+    left: 56%;
+    z-index: 100;
+  }
+
+  .gm-BANANA4-container {
+    width: 100%;
+    top: 35%;
+    position: absolute;
+    left: 5%;
+    z-index: 100;
+  }
+
+    .gm-BANANA {
+      width: 20%;
+    }
+
+    .gm-surprise {
+      width: 27%;
+    }
+
   .gm-grid-container {
     width: 30%;
     top: 50px;
@@ -367,11 +443,19 @@ ul.game li.cross {
 
   /* noughts and crosses reset button style */
   .gm-reset-container {
-    width: 15%;
-    bottom: 31%;
+    width: 25%;
+    bottom: 55%;
     position: fixed;
-    right: 7%;
+    right: -1%;
     z-index: 102;
+  }
+
+  .gm-wave-container {
+    width: 100%;
+    bottom: 0%;
+    position: fixed;
+    left: 0;
+    z-index: 2;
   }
 
 }
@@ -398,10 +482,10 @@ ul.game li.cross {
 
   /* noughts and crosses reset button style */
   .gm-reset-container {
-    width: 15%;
-    bottom: 33%;
+    width: 20%;
+    bottom: 60%;
     position: fixed;
-    right: 8%;
+    right: 4%;
     z-index: 100;
     cursor: pointer;
   }
@@ -610,6 +694,52 @@ ul.game li.cross {
     cursor: pointer;
   }
 
+}
+
+@media only screen and (max-width: 415px) {
+
+  .gm-grid-illustration {
+    top: -16%;
+    position: absolute;
+    left: -27%;
+    width: 270%;
+    transform: rotate(5deg);
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  /* noughts and crosses reset button style */
+  .gm-reset-container {
+    width: 45%;
+    bottom: 31%;
+    position: fixed;
+    right: 11%;
+    z-index: 100;
+    cursor: pointer;
+  }
+
+}
+
+@media only screen and (max-width: 380px) {
+  .gm-grid-illustration {
+    top: -13%;
+    position: absolute;
+    left: -25%;
+    width: 270%;
+    transform: rotate(5deg);
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  /* noughts and crosses reset button style */
+  .gm-reset-container {
+    width: 45%;
+    bottom: 32%;
+    position: fixed;
+    right: 11%;
+    z-index: 100;
+    cursor: pointer;
+  }
 }
 
 @media only screen and (max-width: 350px) {
