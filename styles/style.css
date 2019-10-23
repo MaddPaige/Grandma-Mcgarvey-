@@ -676,3 +676,35 @@ ul.game li.cross {
 }
 
 }
+
+@media only screen and (max-width: 320px) {
+
+.gm-grid-container {
+  width: 10%;
+  top: 10%;
+  position: absolute;
+  right: 79%;
+  z-index:101;
+}
+
+.gm-grid-illustration {
+  top: -2%;
+  position: absolute;
+  left: -10%;
+  width: 800%;
+  transform: rotate(5deg);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* noughts and crosses reset button style */
+.gm-reset-container {
+  width: 45%;
+  bottom: 25%;
+  position: fixed;
+  right: 14%;
+  z-index: 120;
+  cursor: pointer;
+}
+
+}
