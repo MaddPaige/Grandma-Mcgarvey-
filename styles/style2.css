@@ -73,6 +73,7 @@
     margin: 1em;
     color:green;
     font-size: 12pt;
+    cursor: pointer;
   }
 
   .gm-type {
