@@ -14,7 +14,6 @@
     cursor: url("../assets/dog.png") 0 0, pointer;
   }
 
-
   img {
     width: 100%;
   }
@@ -73,7 +72,6 @@
     margin: 1em;
     color:green;
     font-size: 12pt;
-    cursor: pointer;
   }
 
   .gm-type {
@@ -136,14 +134,12 @@
     position: absolute;
     right: 2%;
     z-index: 100;
+    cursor: pointer;
   }
 
   .gm-intsa {
     width: 100%;
   }
-
-
-}
 
 @media only screen and (max-width: 1200px) {
 
@@ -172,7 +168,7 @@
   }
 
   .gm-BANANA {
-    width: 5%;
+    width: 15%;
     animation: rotation 2s infinite linear;
   }
 }
@@ -237,6 +233,7 @@
     left: 2%;
     z-index: 100;
   }
+
 }
 
 @media only screen and (max-width: 800px) {
